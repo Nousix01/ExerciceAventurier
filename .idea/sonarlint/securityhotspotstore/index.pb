@@ -1,16 +1,12 @@
 
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-Y
-)src/main/java/devandgo/exercice/Main.java,e/3/e35d60e35f0af7fa45f21d4392965c48ad11262b
 c
 3src/test/java/devandgo/exercice/AventurierTest.java,d/b/db17e1ad8e16d7b4bbcb87cee183504075b517de
 X
 (src/main/java/devandgo/exercice/Map.java,4/4/4446cc0aa2c18345439b4136d45ef125c902dfc1
 Y
 )src/main/java/devandgo/exercice/Game.java,1/7/17ad1a4b6d938ed4b7c59f778f8050bc32f0542c
-?
-testInput/test1,a/b/ab7cde14a00c754de815ff04ee7242b4079765ea
 [
 +src/main/java/devandgo/exercice/Player.java,4/e/4e8ebdd6b651bfd83af9c2aa56f7506da9ef5140
 _
@@ -25,14 +21,6 @@ _
 0src/main/java/devandgo/exercice/PlayerInput.java,f/c/fc9680a0af90dd24af06a36849106f70e38eedc3
 ^
 .src/main/java/devandgo/exercice/Direction.java,c/a/ca371ad131ac2e9f407cd2c2205b06d28898ff04
-C
-testInput/test2.txt,4/6/46e7caacda897571a636ea7e74e3900870ec7af1
-C
-testInput/test3.txt,e/0/e07b64d93a96fe5453e86b3d387d1f1ad7a91bfd
-s
-Csrc/main/java/devandgo/exercice/IncorrectStartingPositionError.java,c/6/c6c795cf9c430e6061b1f0d693121bffd9a779b7
-Å
-Qsrc/main/java/devandgo/exercice/GameException/IncorrectStartingPositionError.java,2/0/209b2c8851ccda8f2e1184e5b727a98d91bad1b0
 Ç
 Rsrc/main/java/devandgo/exercice/game_exception/IncorrectStartingPositionError.java,5/f/5f35264836709528fc01116a1ecb9ac44acd8388
 D
@@ -41,8 +29,6 @@ D
 test_input/test2.txt,f/f/ff638b02bcdd3144963a1a060a1d4ca1847e6184
 D
 test_input/test3.txt,9/2/922ec584f0d60bfb0e92769e644cbe0651b660a9
-@
-test_input/test4,e/1/e1ea3acaba75b2ed8ccd8ce5d39027f7e9225d55
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
@@ -58,8 +44,6 @@ D
 test_input/test1.txt,5/8/58e5b51df0fd7b171d418653dbc6da8852c84f9e
 w
 G.idea/sonarlint/issuestore/5/f/5f35264836709528fc01116a1ecb9ac44acd8388,f/e/fe16069ce2e51ca531f69c82206dd1f9998917d8
-w
-G.idea/sonarlint/issuestore/a/b/ab7cde14a00c754de815ff04ee7242b4079765ea,6/6/669b12d5055435fe0ba9c9e59fb6f60e05b5d9aa
 Å
 Q.idea/sonarlint/securityhotspotstore/a/b/ab7cde14a00c754de815ff04ee7242b4079765ea,f/a/fa31b1f232041236a9698e8ef97260dcfcc846b8
 ]
@@ -108,8 +92,6 @@ Q.idea/sonarlint/securityhotspotstore/9/2/922ec584f0d60bfb0e92769e644cbe0651b660
 Q.idea/sonarlint/securityhotspotstore/f/c/fc9680a0af90dd24af06a36849106f70e38eedc3,d/e/de5a17cdf720beab5d5a644b3307dfe5155d3b82
 Å
 Q.idea/sonarlint/securityhotspotstore/e/1/e1ea3acaba75b2ed8ccd8ce5d39027f7e9225d55,d/2/d2c9ad37353a265a7b35b44d591b27e67a7bdb0c
-w
-G.idea/sonarlint/issuestore/e/1/e1ea3acaba75b2ed8ccd8ce5d39027f7e9225d55,0/2/02cc59a9ccd82a7186e9a3adc37d702535da63e2
 Å
 Q.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302,3/0/30205a209c6ce77c4cfc19a09e6f57c588b7fb88
 w
@@ -118,15 +100,9 @@ w
 G.idea/sonarlint/issuestore/c/a/ca371ad131ac2e9f407cd2c2205b06d28898ff04,5/1/517ab652760423a01242cc4fd39c3dcaf3e3d6a6
 Å
 Q.idea/sonarlint/securityhotspotstore/c/a/ca371ad131ac2e9f407cd2c2205b06d28898ff04,4/5/45ad776ffa0ba8049be76b54ccfd8c28e29d775d
-w
-G.idea/sonarlint/issuestore/4/6/46e7caacda897571a636ea7e74e3900870ec7af1,e/4/e43681af0466d4f9bed6255fd5850099d99ab2fe
-w
-G.idea/sonarlint/issuestore/e/0/e07b64d93a96fe5453e86b3d387d1f1ad7a91bfd,3/8/380a5c2ad0299629b68097450561b7702c85149a
 Å
 Q.idea/sonarlint/securityhotspotstore/e/0/e07b64d93a96fe5453e86b3d387d1f1ad7a91bfd,d/7/d7157024506fa9ed14729e973e420ffc4c1af44f
 Å
 Q.idea/sonarlint/securityhotspotstore/4/6/46e7caacda897571a636ea7e74e3900870ec7af1,6/e/6ede283b51107f39e9aa5b6d202d3c0e9d65d053
 Å
 Q.idea/sonarlint/securityhotspotstore/4/4/4446cc0aa2c18345439b4136d45ef125c902dfc1,0/6/0697f4d6f90df241fd345778006a76b2aaf7ea29
-w
-G.idea/sonarlint/issuestore/c/6/c6c795cf9c430e6061b1f0d693121bffd9a779b7,8/3/8379fec8cb6ea0bf1890d94bdddf983049b85553
