@@ -3,11 +3,13 @@ package devandgo.exercice;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.URL;
 
 public class MapFactory {
-    public Map generateMap(String filePath, Location size) {
-        char[][] tiles = new char[20][20];
-        try (BufferedReader br = new BufferedReader(new FileReader(filePath))) {
+    public Map generateMap(String filePath, int width,int height) {
+        char[][] tiles = new char[width][height];
+        URL resource = this.getClass().getClassLoader().getResource(filePath);
+        try (BufferedReader br = new BufferedReader(new FileReader(resource.getPath()))) {
             int c;
             int i = 0, j = 0;
             // Read characters until the end of the file
@@ -22,12 +24,12 @@ public class MapFactory {
                     tiles[i][j] = character;
                     j++;
                 }
-                // Process each character as needed (e.g., print it)
+                // Process each character as needed
             }
         } catch (IOException e) {
             throw new IllegalArgumentException("Provided map is invalid", e);
         }
-        return new Map(size ,tiles );
+        return new Map(width,height ,tiles );
     }
 
 
