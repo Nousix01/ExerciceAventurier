@@ -1,8 +1,6 @@
 
 7
 pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
-c
-3src/test/java/devandgo/exercice/AventurierTest.java,d/b/db17e1ad8e16d7b4bbcb87cee183504075b517de
 X
 (src/main/java/devandgo/exercice/Map.java,4/4/4446cc0aa2c18345439b4136d45ef125c902dfc1
 Y
@@ -17,23 +15,11 @@ _
 /src/main/java/devandgo/exercice/MapFactory.java,8/2/82a47b3314cac3682bcb33a49b7009412cacae2d
 `
 0src/main/java/devandgo/exercice/PlayerInput.java,f/c/fc9680a0af90dd24af06a36849106f70e38eedc3
-^
-.src/main/java/devandgo/exercice/Direction.java,c/a/ca371ad131ac2e9f407cd2c2205b06d28898ff04
-Ç
-Rsrc/main/java/devandgo/exercice/game_exception/IncorrectStartingPositionError.java,5/f/5f35264836709528fc01116a1ecb9ac44acd8388
-D
-test_input/test4.txt,b/2/b245aea289d9b7556eacfdf8d7db7a7f6b59f694
-D
-test_input/test2.txt,f/f/ff638b02bcdd3144963a1a060a1d4ca1847e6184
-D
-test_input/test3.txt,9/2/922ec584f0d60bfb0e92769e644cbe0651b660a9
 :
 
 .gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
 Å
 Q.idea/sonarlint/securityhotspotstore/5/f/5f35264836709528fc01116a1ecb9ac44acd8388,8/b/8b4b4d4c3a6f3ecdbbb947cc36b9c388e74b39c9
-D
-test_input/test1.txt,5/8/58e5b51df0fd7b171d418653dbc6da8852c84f9e
 w
 G.idea/sonarlint/issuestore/5/f/5f35264836709528fc01116a1ecb9ac44acd8388,f/e/fe16069ce2e51ca531f69c82206dd1f9998917d8
 ]
@@ -58,8 +44,6 @@ Q.idea/sonarlint/securityhotspotstore/1/1/11ec0c0724809d25a55f11de0e78d54bc5dc8f
 Q.idea/sonarlint/securityhotspotstore/a/7/a7fb1e069309bd6984fa5828fd4e86cf1a185976,5/5/554bdb7e1e36541222e4135969d7062b4f6b5758
 Å
 Q.idea/sonarlint/securityhotspotstore/8/2/82a47b3314cac3682bcb33a49b7009412cacae2d,3/2/328511c5e744e25df814e3de436ae1540dce9303
-Å
-Q.idea/sonarlint/securityhotspotstore/7/1/7164f1c054715a2bd325771d28cff3ea77716ec3,e/5/e5487fb2c2eac8c2df71a2a432a47b5f4aff6983
 w
 G.idea/sonarlint/issuestore/b/2/b245aea289d9b7556eacfdf8d7db7a7f6b59f694,b/e/be1f81ea3bbc8489011390219ff9fef83f91c01a
 Å
@@ -96,9 +80,5 @@ l
 <src/main/java/devandgo/exercice/error/OutOfMapException.java,c/8/c8a1db25c1a193ff7982cb9a9c3a13fac9c1759a
 _
 /src/main/java/devandgo/exercice/Coordinate.java,a/d/aded9addbe8fa886c39ac0dfe839fc5887296638
-P
- src/main/resources/small_map.txt,f/1/f1380ec07e118ac8cafb84eb89e2276892914687
-L
-src/main/resources/carte.txt,d/c/dc280084ff238da5081a717031377b8a238e782c
 c
 3src/test/java/devandgo/exercice/AdventurerTest.java,f/e/fe626b794e667f6bd3be713426448898620454ea

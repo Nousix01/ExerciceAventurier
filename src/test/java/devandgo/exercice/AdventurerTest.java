@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import devandgo.exercice.error.IncorrectStartingPositionError;
 import devandgo.exercice.error.InvalidDirectionException;
 import devandgo.exercice.error.OutOfMapException;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
