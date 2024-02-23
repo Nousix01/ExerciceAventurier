@@ -1,4 +1,4 @@
-package devandgo.exercice.error;
+package devandgo.exercice.exception;
 
 public class InvalidDirectionException extends RuntimeException{
     public InvalidDirectionException(String message) {

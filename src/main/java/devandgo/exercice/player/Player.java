@@ -1,6 +1,9 @@
-package devandgo.exercice;
+package devandgo.exercice.player;
 
-import devandgo.exercice.error.IncorrectStartingPositionError;
+import devandgo.exercice.game.Coordinate;
+import devandgo.exercice.game.Movement;
+import devandgo.exercice.exception.IncorrectStartingPositionError;
+import devandgo.exercice.map.Map;
 
 import java.util.List;
 
@@ -14,7 +17,7 @@ public class Player {
         this.currentLocation = currentLocation;
     }
 
-    void setPlayerPosition(Map map) throws IncorrectStartingPositionError {
+    public void setPlayerPosition(Map map) throws IncorrectStartingPositionError {
         try {
             if (map.isLocationFree(currentLocation)) {
                 map.updateTile(currentLocation, 'A');
